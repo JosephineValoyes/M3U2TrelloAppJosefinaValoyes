@@ -1,0 +1,38 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.my_app{
+    display: flex;
+    justify-content: space-between;
+
+}
+section{
+    display:flex;
+    justify-content: space-around;
+}
+.task_by_do_container{
+    display: flex;
+    align-content: space-around;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px #ccc;
+    margin-bottom: 3px;
+    background: #cec0fc;
+
+}
+.task_in_process{
+    background: #0000;
+    border-radius: 3px;
+   
+}
+.task_in_process{
+    display: flex;
+    background-color: #ebecf0;
+   
+    
+}
+.task_finish{
+    display: flex;
+}

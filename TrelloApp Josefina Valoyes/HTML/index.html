@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KANBAN</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/section.css">
+</head>
+<body>
+    <header>
+        <div class="Encabezado">
+            <h1>Kanban</h1>     
+            <button type="button" class="btn_btn" onclick="create_a" id="create"><h3>Create A New Task</h3></button>    
+    </header>   
+    <main class="my_app">
+        <div class="container_2">
+            <section class="task_by_do_container">
+                <h2 class="title-section">Task By Do</h2>  
+                <div class="task-container"></div>
+                <div class="Add_task"></div>
+            </section>
+            
+            <section class="task_in_process">  
+                <h2 class="title-section-2">Task In Process</h2>  
+                <div class="process-container"></div>
+                <div class="Add_task"></div>      
+            </section>
+
+            <section class="task_finish">
+                <h2 class="title-section-3">Finished Work</h2>  
+                <div class="finished-container"></div>
+                <div class="Add_task"></div>
+            </section>
+        </div>
+    </main> 
+   
+</body>
+<script src="/JAVASCRIPT/index.js"></script>
+</html>

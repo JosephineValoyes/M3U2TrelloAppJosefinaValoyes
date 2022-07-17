@@ -1,0 +1,36 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url(/mariposas.jpeg);    
+}
+.Encabezado{
+    display:flex;
+    margin:auto;
+    justify-content: space-around;
+    background-color: rgb(114, 143, 236);
+}
+
+h3{
+    font-weight: 10;
+    margin:auto;
+    font-size: 12px;
+    
+}
+button{
+    
+    display:grid;
+    margin:auto;
+    width: 70;
+    display: grid;
+    padding: 10px;
+
+    background-color: #bb76d7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+      background-color: aqua;
+}
